@@ -8,11 +8,11 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State private var displayText = "0"
-    @State private var currentInput = ""
-    @State private var storedValue: Double? = nil
-    @State private var currentOperator: String?
-    @State private var isNewCalculation = false
+    @State public var displayText = "0"
+    @State public var currentInput = ""
+    @State public var storedValue: Double? = nil
+    @State public var currentOperator: String?
+    @State public var isNewCalculation = false
 
     var body: some View {
         VStack(spacing: 10) {
