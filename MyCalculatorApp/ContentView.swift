@@ -2,7 +2,7 @@
 //  ContentView.swift
 //  MyCalculatorApp
 //
-//  Created by Nana Yaw on 11/7/24.
+//  Created by Jeffrey on 11/7/24.
 //  updated on 01/03/25
 //
 import SwiftUI
@@ -35,7 +35,7 @@ struct ContentView: View {
                     }
                     Spacer()
                 }
-//new stuff
+                
                 CalculatorButtonRow(buttons: ["7", "8", "9", "÷"], action: buttonTap)
                 CalculatorButtonRow(buttons: ["4", "5", "6", "×"], action: buttonTap)
                 CalculatorButtonRow(buttons: ["1", "2", "3", "-"], action: buttonTap)
