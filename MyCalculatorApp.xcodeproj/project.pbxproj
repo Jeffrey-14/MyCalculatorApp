@@ -7,13 +7,6 @@
 	objects = {
 
 /* Begin PBXContainerItemProxy section */
-		3DA5C5212CDD253A0066835F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3DA5C5082CDD25380066835F /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 3DA5C50F2CDD25380066835F;
-			remoteInfo = MyCalculatorApp;
-		};
 		3DA5C52B2CDD253A0066835F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 3DA5C5082CDD25380066835F /* Project object */;
@@ -24,8 +17,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3D26D38C2D7F942D00373793 /* MyCalculatorApp.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = MyCalculatorApp.xctestplan; sourceTree = "<group>"; };
 		3DA5C5102CDD25380066835F /* MyCalculatorApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyCalculatorApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		3DA5C5202CDD253A0066835F /* MyCalculatorAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyCalculatorAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DA5C52A2CDD253A0066835F /* MyCalculatorAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyCalculatorAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -33,11 +26,6 @@
 		3DA5C5122CDD25380066835F /* MyCalculatorApp */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = MyCalculatorApp;
-			sourceTree = "<group>";
-		};
-		3DA5C5232CDD253A0066835F /* MyCalculatorAppTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = MyCalculatorAppTests;
 			sourceTree = "<group>";
 		};
 		3DA5C52D2CDD253A0066835F /* MyCalculatorAppUITests */ = {
@@ -49,13 +37,6 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		3DA5C50D2CDD25380066835F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3DA5C51D2CDD253A0066835F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -75,8 +56,8 @@
 		3DA5C5072CDD25380066835F = {
 			isa = PBXGroup;
 			children = (
+				3D26D38C2D7F942D00373793 /* MyCalculatorApp.xctestplan */,
 				3DA5C5122CDD25380066835F /* MyCalculatorApp */,
-				3DA5C5232CDD253A0066835F /* MyCalculatorAppTests */,
 				3DA5C52D2CDD253A0066835F /* MyCalculatorAppUITests */,
 				3DA5C5112CDD25380066835F /* Products */,
 			);
@@ -86,7 +67,6 @@
 			isa = PBXGroup;
 			children = (
 				3DA5C5102CDD25380066835F /* MyCalculatorApp.app */,
-				3DA5C5202CDD253A0066835F /* MyCalculatorAppTests.xctest */,
 				3DA5C52A2CDD253A0066835F /* MyCalculatorAppUITests.xctest */,
 			);
 			name = Products;
@@ -116,29 +96,6 @@
 			productName = MyCalculatorApp;
 			productReference = 3DA5C5102CDD25380066835F /* MyCalculatorApp.app */;
 			productType = "com.apple.product-type.application";
-		};
-		3DA5C51F2CDD253A0066835F /* MyCalculatorAppTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3DA5C5372CDD253A0066835F /* Build configuration list for PBXNativeTarget "MyCalculatorAppTests" */;
-			buildPhases = (
-				3DA5C51C2CDD253A0066835F /* Sources */,
-				3DA5C51D2CDD253A0066835F /* Frameworks */,
-				3DA5C51E2CDD253A0066835F /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				3DA5C5222CDD253A0066835F /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				3DA5C5232CDD253A0066835F /* MyCalculatorAppTests */,
-			);
-			name = MyCalculatorAppTests;
-			packageProductDependencies = (
-			);
-			productName = MyCalculatorAppTests;
-			productReference = 3DA5C5202CDD253A0066835F /* MyCalculatorAppTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		3DA5C5292CDD253A0066835F /* MyCalculatorAppUITests */ = {
 			isa = PBXNativeTarget;
@@ -176,10 +133,6 @@
 					3DA5C50F2CDD25380066835F = {
 						CreatedOnToolsVersion = 16.0;
 					};
-					3DA5C51F2CDD253A0066835F = {
-						CreatedOnToolsVersion = 16.0;
-						TestTargetID = 3DA5C50F2CDD25380066835F;
-					};
 					3DA5C5292CDD253A0066835F = {
 						CreatedOnToolsVersion = 16.0;
 						TestTargetID = 3DA5C50F2CDD25380066835F;
@@ -201,7 +154,6 @@
 			projectRoot = "";
 			targets = (
 				3DA5C50F2CDD25380066835F /* MyCalculatorApp */,
-				3DA5C51F2CDD253A0066835F /* MyCalculatorAppTests */,
 				3DA5C5292CDD253A0066835F /* MyCalculatorAppUITests */,
 			);
 		};
@@ -209,13 +161,6 @@
 
 /* Begin PBXResourcesBuildPhase section */
 		3DA5C50E2CDD25380066835F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3DA5C51E2CDD253A0066835F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -239,13 +184,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3DA5C51C2CDD253A0066835F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		3DA5C5262CDD253A0066835F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -256,11 +194,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		3DA5C5222CDD253A0066835F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 3DA5C50F2CDD25380066835F /* MyCalculatorApp */;
-			targetProxy = 3DA5C5212CDD253A0066835F /* PBXContainerItemProxy */;
-		};
 		3DA5C52C2CDD253A0066835F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 3DA5C50F2CDD25380066835F /* MyCalculatorApp */;
@@ -444,42 +377,6 @@
 			};
 			name = Release;
 		};
-		3DA5C5382CDD253A0066835F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = extreme.MyCalculatorAppTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyCalculatorApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MyCalculatorApp";
-			};
-			name = Debug;
-		};
-		3DA5C5392CDD253A0066835F /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = extreme.MyCalculatorAppTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyCalculatorApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MyCalculatorApp";
-			};
-			name = Release;
-		};
 		3DA5C53B2CDD253A0066835F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -529,15 +426,6 @@
 			buildConfigurations = (
 				3DA5C5352CDD253A0066835F /* Debug */,
 				3DA5C5362CDD253A0066835F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		3DA5C5372CDD253A0066835F /* Build configuration list for PBXNativeTarget "MyCalculatorAppTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3DA5C5382CDD253A0066835F /* Debug */,
-				3DA5C5392CDD253A0066835F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
